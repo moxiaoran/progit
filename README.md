@@ -1,2 +1,1 @@
-My PRO Git test project
-test test test
+Try to understand the advantage of Git by reading this book - Pro Git
