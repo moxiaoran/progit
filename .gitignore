@@ -1,0 +1,21 @@
+# ignore all a. files
+*.a
+
+# but ok track lib.a, evn thoug you're ignoring .a file above
+!lib.a
+
+# only ignore the TODO file in the current dicctory, not subdir/TODO
+/TODO
+
+# ignore all files in any directory name build
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
+
+
+
+
